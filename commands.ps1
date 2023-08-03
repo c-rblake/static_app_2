@@ -6,7 +6,12 @@
 # Azure Static Web Apps added a GitHub Actions workflow file to the branch you selected in the previous exercise. First, you'll get this file by pulling your code from Git.
 # But we need to Pull it.
 # Add a default router to static web app config (not the actual app by wwwroot within the Client project.)
+
+# Create an Item
 # New-Item -ItemType File -Path . -Name "staticwebapp.config.json"  
+
+# VS code open a file from command line
+# code -r something.php
 
 # Before making changes to an app, it's good practice to create a new branch for the changes.
 
@@ -42,6 +47,7 @@
 # Azure functions is not so out of the box in visual studio code as in visual studio
 # Basically we get the boiler plate code generated for us if we use visual studio
 # But we can do it with command palette ctrl-shift-p
+# CTRL SHIFT P => "Azure Functions - Create Function"
 
 # Configure Cross-Origin Resource Sharing (CORS) locally
 # Not needed in Azure since the Reverse Proxy handles this.
