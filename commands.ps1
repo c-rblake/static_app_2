@@ -9,6 +9,7 @@
 
 # Create an Item
 # New-Item -ItemType File -Path . -Name "staticwebapp.config.json"  
+# added this line
 
 # VS code open a file from command line
 # code -r something.php
